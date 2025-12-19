@@ -9,6 +9,7 @@ struct header
 {
     int chunk; // 占用的块号
     int amount; // 占用的块数
+    int freed; // 是否释放
     struct header *next; // 下一个
 };
 
@@ -21,11 +22,16 @@ void __attribute__((noinline)) my_init() {
     head_chunk = (struct header *)my_mem_pool;
     head_chunk->chunk = 1;
     head_chunk->amount = 1;
+    head_chunk->freed = 0;
     head_chunk->next = NULL;
     used_chunks += 1;
 }
 
 void * __attribute__((noinline)) my_malloc(size_t size) {
+    if (size == 0 || size > 4096) {
+        return NULL;
+    }
+
     unsigned long need_chunk = (size + HEAD_SIZE + 31) / 32; // 需要的块数
     if (used_chunks + need_chunk > CHUNK_SIZE) {
         return NULL;
@@ -41,6 +47,7 @@ void * __attribute__((noinline)) my_malloc(size_t size) {
             struct header *new_header = (struct header *)((char *)my_mem_pool + (iter->chunk + iter->amount) * 32); // 定位新头位置
             new_header->chunk = iter->chunk + iter->amount;
             new_header->amount = need_chunk;
+            new_header->freed = 0;
             new_header->next = next;
             iter->next = new_header;
             return (void *)((char *)new_header + HEAD_SIZE);
@@ -53,6 +60,7 @@ void * __attribute__((noinline)) my_malloc(size_t size) {
     struct header *new_header = (struct header *)((char *)my_mem_pool + (iter->chunk + iter->amount) * 32);
     new_header->chunk = iter->chunk + iter->amount;
     new_header->amount = need_chunk;
+    new_header->freed = 0;
     new_header->next = NULL;
     iter->next = new_header;
     return (void *)((char *)new_header + HEAD_SIZE);
@@ -62,7 +70,10 @@ void __attribute__((noinline)) my_free(void *ptr) {
     if (ptr == NULL) return;
 
     struct header *block = (struct header *)((char *)ptr - HEAD_SIZE);
+    if (block->freed) return;
+
     used_chunks -= block->amount;
+    block->freed = 1;
 
     // 头链
     struct header *iter = head_chunk;
