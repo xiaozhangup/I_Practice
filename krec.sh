@@ -11,8 +11,8 @@ if [[ ! -f "$TEMPLATE_FILE" ]]; then
   exit 1
 fi
 
-if ! command -v code >/dev/null 2>&1; then
-  echo "未找到 'code' 命令（VS Code CLI）。请先确保已安装并在 PATH 中。" >&2
+if ! command -v idea >/dev/null 2>&1; then
+  echo "未找到 'idea' 命令（IDEA CLI）。请先确保已安装并在 PATH 中。" >&2
   exit 1
 fi
 
@@ -99,9 +99,12 @@ if [[ ! -f "$target" ]]; then
   {
     printf '// 链接: %s\n' "$url"
     printf '// 日期: %s\n\n' "$today"
+#    printf '@file:Suppress("PackageDirectoryMismatch")\n'
+#    printf 'package %s\n\n' "$short"
     cat "$TEMPLATE_FILE"
   } > "$tmp"
   mv "$tmp" "$target"
 fi
 
+git add "$target"
 idea "$target"

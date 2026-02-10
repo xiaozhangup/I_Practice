@@ -1,3 +1,6 @@
+// 链接: https://ac.nowcoder.com/acm/contest/120564/A
+// 日期: 2026年02月11日
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.StringTokenizer

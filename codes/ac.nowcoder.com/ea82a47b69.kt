@@ -8,16 +8,19 @@ import java.util.StringTokenizer
 private val br = BufferedReader(InputStreamReader(System.`in`))
 private var st: StringTokenizer? = null
 
-fun next(): String {
+private fun next(): String {
     while (st == null || !st!!.hasMoreElements()) {
         st = StringTokenizer(br.readLine())
     }
     return st!!.nextToken()
 }
 
-fun nextInt() = next().toInt()
-fun nextLong() = next().toLong()
+private fun nextInt() = next().toInt()
+private fun nextLong() = next().toLong()
+private fun nextDouble() = next().toDouble()
+private fun nextFloat() = next().toFloat()
 
 fun main() {
-    println("######")
+    val n = nextInt()
+    println(n * 2)
 }
