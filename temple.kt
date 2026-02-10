@@ -16,6 +16,8 @@ private fun nextInt() = next().toInt()
 private fun nextLong() = next().toLong()
 private fun nextDouble() = next().toDouble()
 private fun nextFloat() = next().toFloat()
+private fun nextLine(): String = br.readLine()
+private fun nextChar(): Char = next()[0]
 
 fun main() {
     val n = nextInt()
