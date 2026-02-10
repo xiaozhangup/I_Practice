@@ -1,5 +1,5 @@
-// 链接: https://example.com/path?q=1
-// 日期: 2026年01月25日
+// 链接: https://vjudge.net/problem/AtCoder-abc260_e
+// 日期: 2026年01月30日
 
 #include <iostream>
 #include <algorithm>
@@ -34,6 +34,22 @@ int main() {
 
 #define ll long long
 
-void slove() {
+vector<pair<int, int>> pas;
 
+int f(int a) {
+    
+}
+
+void slove() {
+    int n, m; cin >> n >> m;
+    pas = vector<pair<int, int>>(n);
+    for (int i = 0; i < n; i++) {
+        int a, b; cin >> a >> b;
+        pas[i] = {a, b};
+    }
+
+    for (int i = 1; i <= m; i++) {
+        if (i != 1) cout << " ";
+        cout << f(i);
+    }
 }
