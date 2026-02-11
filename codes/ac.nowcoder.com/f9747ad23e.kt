@@ -1,4 +1,4 @@
-// 链接: https://ac.nowcoder.com/acm/contest/120564/A
+// 链接: https://ac.nowcoder.com/acm/contest/120565/B
 // 日期: 2026年02月11日
 
 import java.io.BufferedReader
@@ -24,30 +24,21 @@ private fun nextChar(): Char = next()[0]
 
 fun main() {
     val n = nextInt()
-    val counter = mutableMapOf<Int, Int>()
-    val arr = mutableSetOf<Int>()
-    repeat(n) {
-        val num = nextInt()
-        counter[num] = counter.getOrDefault(num, 0) + 1
-        arr.add(num)
-    }
-
-    val str = "abcddcba".toSet()
-    str.sortedBy { it }
-    str.sortedByDescending { it }
-
-    var suma = 0
-    var sumb = 0
-    for (i in arr) {
-        val per = 1.0 * (arr.sumOf {
-            if (it <= i) counter[it]!! else 0
-        } - 1) / (n - 1)
-        if (per >= 0.8) {
-            suma += counter[i]!! * i
-        } else {
-            sumb += counter[i]!! * i
+    val m = nextInt()
+    println(
+        buildString {
+            repeat(n) { line ->
+                repeat(m) { index ->
+                    if (line % 2 == 0) {
+                        if (index % 2 == 0) append("/")
+                        else append("\\")
+                    } else {
+                        if (index % 2 == 0) append("\\")
+                        else append("/")
+                    }
+                }
+                append('\n')
+            }
         }
-    }
-
-    println(suma)
+    )
 }
