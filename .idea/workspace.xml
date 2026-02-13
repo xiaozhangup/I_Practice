@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389442a9-a476-4cbd-ba40-3badf96c87e2" name="更改" comment="2026-02-11">
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/082a5d0038.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/126f62ddd1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/232975e5f4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/3699aa3f37.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/821f13e79d.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/ef392e3c31.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/f9747ad23e.kt" afterDir="false" />
+    <list default="true" id="389442a9-a476-4cbd-ba40-3badf96c87e2" name="更改" comment="2026-02-11&#10;2026牛客寒假算法基础集训营5">
+      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/23ab01f997.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/30d5d99d1c.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/60d9ce29dc.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/72931fa2a8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/84c9cbeb6f.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/d5f199a5e5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/d60868a76b.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.autocp" beforeDir="false" afterPath="$PROJECT_DIR$/.autocp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/ac.nowcoder.com/0ac1b645d0.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/0ac1b645d0.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,13 @@
     "AutoCp Solution.0ac1b645d0.executor": "Run",
     "AutoCp Solution.126f62ddd1.executor": "Run",
     "AutoCp Solution.232975e5f4.executor": "Run",
+    "AutoCp Solution.23ab01f997.executor": "Run",
+    "AutoCp Solution.30d5d99d1c.executor": "Run",
+    "AutoCp Solution.60d9ce29dc.executor": "Run",
+    "AutoCp Solution.72931fa2a8.executor": "Run",
     "AutoCp Solution.821f13e79d.executor": "Run",
+    "AutoCp Solution.84c9cbeb6f.executor": "Run",
+    "AutoCp Solution.d60868a76b.executor": "Run",
     "AutoCp Solution.ea82a47b69.executor": "Run",
     "AutoCp Solution.ef392e3c31.executor": "Run",
     "AutoCp Solution.f9747ad23e.executor": "Run",
@@ -84,7 +89,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,64 +98,64 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="AutoCp Solution.232975e5f4">
-    <configuration name="082a5d0038" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+  <component name="RunManager" selected="AutoCp Solution.23ab01f997">
+    <configuration name="23ab01f997" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/082a5d0038.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/23ab01f997.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="126f62ddd1" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="30d5d99d1c" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/126f62ddd1.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/30d5d99d1c.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="232975e5f4" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="60d9ce29dc" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/232975e5f4.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/60d9ce29dc.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="821f13e79d" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="84c9cbeb6f" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/821f13e79d.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/84c9cbeb6f.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="ef392e3c31" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="d60868a76b" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/ef392e3c31.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/d60868a76b.kt" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="AutoCp Solution.232975e5f4" />
-        <item itemvalue="AutoCp Solution.821f13e79d" />
-        <item itemvalue="AutoCp Solution.126f62ddd1" />
-        <item itemvalue="AutoCp Solution.082a5d0038" />
-        <item itemvalue="AutoCp Solution.ef392e3c31" />
+        <item itemvalue="AutoCp Solution.23ab01f997" />
+        <item itemvalue="AutoCp Solution.60d9ce29dc" />
+        <item itemvalue="AutoCp Solution.30d5d99d1c" />
+        <item itemvalue="AutoCp Solution.d60868a76b" />
+        <item itemvalue="AutoCp Solution.84c9cbeb6f" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +168,10 @@
       <updated>1765526732225</updated>
       <workItem from="1770742498166" duration="651000" />
       <workItem from="1770743187637" duration="3363000" />
-      <workItem from="1770788392278" duration="15176000" />
+      <workItem from="1770788392278" duration="15546000" />
+      <workItem from="1770804902273" duration="252000" />
+      <workItem from="1770962203685" duration="478000" />
+      <workItem from="1770963109018" duration="14064000" />
     </task>
     <task id="LOCAL-00001" summary="Import Kotlin">
       <option name="closed" value="true" />
@@ -189,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770746185628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2026-02-11&#10;2026牛客寒假算法基础集训营5">
+      <option name="closed" value="true" />
+      <created>1770804199479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770804199479</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +215,8 @@
     <MESSAGE value="Import Kotlin" />
     <MESSAGE value="Fix Kotlin&#10;为了不冲突不得不全部 private, 哎 IDEA 怎么这么坏" />
     <MESSAGE value="2026-02-11" />
-    <option name="LAST_COMMIT_MESSAGE" value="2026-02-11" />
+    <MESSAGE value="2026-02-11&#10;2026牛客寒假算法基础集训营5" />
+    <option name="LAST_COMMIT_MESSAGE" value="2026-02-11&#10;2026牛客寒假算法基础集训营5" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
