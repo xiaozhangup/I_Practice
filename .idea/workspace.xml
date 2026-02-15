@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389442a9-a476-4cbd-ba40-3badf96c87e2" name="更改" comment="2026-02-11&#10;2026牛客寒假算法基础集训营5">
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/23ab01f997.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/30d5d99d1c.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/60d9ce29dc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/72931fa2a8.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/84c9cbeb6f.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/d5f199a5e5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/d60868a76b.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.autocp" beforeDir="false" afterPath="$PROJECT_DIR$/.autocp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="389442a9-a476-4cbd-ba40-3badf96c87e2" name="更改" comment="2026-02-13&#10;2026牛客寒假算法基础集训营6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +161,7 @@
       <workItem from="1770788392278" duration="15546000" />
       <workItem from="1770804902273" duration="252000" />
       <workItem from="1770962203685" duration="478000" />
-      <workItem from="1770963109018" duration="14064000" />
+      <workItem from="1770963109018" duration="14310000" />
     </task>
     <task id="LOCAL-00001" summary="Import Kotlin">
       <option name="closed" value="true" />
@@ -205,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770804199479</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2026-02-13&#10;2026牛客寒假算法基础集训营6">
+      <option name="closed" value="true" />
+      <created>1770977400125</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770977400125</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +214,8 @@
     <MESSAGE value="Fix Kotlin&#10;为了不冲突不得不全部 private, 哎 IDEA 怎么这么坏" />
     <MESSAGE value="2026-02-11" />
     <MESSAGE value="2026-02-11&#10;2026牛客寒假算法基础集训营5" />
-    <option name="LAST_COMMIT_MESSAGE" value="2026-02-11&#10;2026牛客寒假算法基础集训营5" />
+    <MESSAGE value="2026-02-13&#10;2026牛客寒假算法基础集训营6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2026-02-13&#10;2026牛客寒假算法基础集训营6" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
