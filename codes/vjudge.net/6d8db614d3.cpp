@@ -1,5 +1,5 @@
-// 链接: https://vjudge.net/problem/%E6%B4%9B%E8%B0%B7-P1507
-// 日期: 2026年02月19日
+// 链接: https://vjudge.net/problem/%E6%B4%9B%E8%B0%B7-P1192
+// 日期: 2026年02月21日
 
 #include <iostream>
 #include <algorithm>
@@ -33,23 +33,21 @@ int main() {
 }
 
 #define ll long long
+#define MOD 100003
 
 void slove() {
-    int H, T; cin >> H >> T;
-    int n; cin >> n;
+    int N, K; cin >> N >> K;
 
-    vector<vector<int>> dp(405, vector<int>(405, 0));
-
-    for (int i = 1; i <= n; i++) {
-        int h, t, k;
-        cin >> h >> t >> k;
-
-        for (int j = H; j >= h; j--) {
-            for (int m = T; m >= t; m--) {
-                dp[j][m] = max(dp[j][m], dp[j - h][m - t] + k);
+    vector<int> dp(N + 1, 0);
+    dp[0] = 1;
+    for (int i = 1; i <= N; i++) {
+        for (int s = 1; s <= K; s++) {
+            if (i - s >= 0) {
+                dp[i] += dp[i - s];
+                dp[i] %= MOD;
             }
         }
     }
 
-    cout << dp[H][T];
+    cout << dp[N];
 }
