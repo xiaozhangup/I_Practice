@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389442a9-a476-4cbd-ba40-3badf96c87e2" name="更改" comment="2026-02-13&#10;2026牛客寒假算法基础集训营6" />
+    <list default="true" id="389442a9-a476-4cbd-ba40-3badf96c87e2" name="更改" comment="2026-02-13&#10;2026牛客寒假算法基础集训营6">
+      <change afterPath="$PROJECT_DIR$/codes/ac.nowcoder.com/7bfe73e6e6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.autocp" beforeDir="false" afterPath="$PROJECT_DIR$/.autocp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +59,7 @@
     "AutoCp Solution.30d5d99d1c.executor": "Run",
     "AutoCp Solution.60d9ce29dc.executor": "Run",
     "AutoCp Solution.72931fa2a8.executor": "Run",
+    "AutoCp Solution.7bfe73e6e6.executor": "Run",
     "AutoCp Solution.821f13e79d.executor": "Run",
     "AutoCp Solution.84c9cbeb6f.executor": "Run",
     "AutoCp Solution.d60868a76b.executor": "Run",
@@ -88,7 +93,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="AutoCp Solution.23ab01f997">
+  <component name="RunManager" selected="AutoCp Solution.7bfe73e6e6">
     <configuration name="23ab01f997" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
@@ -119,14 +124,14 @@
       <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/60d9ce29dc.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="84c9cbeb6f" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="7bfe73e6e6" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/84c9cbeb6f.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/ac.nowcoder.com/7bfe73e6e6.kt" />
       <method v="2" />
     </configuration>
     <configuration name="d60868a76b" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
@@ -141,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="AutoCp Solution.7bfe73e6e6" />
         <item itemvalue="AutoCp Solution.23ab01f997" />
         <item itemvalue="AutoCp Solution.60d9ce29dc" />
         <item itemvalue="AutoCp Solution.30d5d99d1c" />
         <item itemvalue="AutoCp Solution.d60868a76b" />
-        <item itemvalue="AutoCp Solution.84c9cbeb6f" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +167,8 @@
       <workItem from="1770804902273" duration="252000" />
       <workItem from="1770962203685" duration="478000" />
       <workItem from="1770963109018" duration="14310000" />
+      <workItem from="1771740154339" duration="198000" />
+      <workItem from="1771760909238" duration="2523000" />
     </task>
     <task id="LOCAL-00001" summary="Import Kotlin">
       <option name="closed" value="true" />
