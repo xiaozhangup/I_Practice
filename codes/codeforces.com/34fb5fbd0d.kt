@@ -1,3 +1,6 @@
+// 链接: https://codeforces.com/contest/2198/problem/A
+// 日期: 2026年02月23日
+
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.StringTokenizer
@@ -23,7 +26,18 @@ fun main() {
     println(
         buildString {
             repeat(nextInt()) {
+                val n = nextInt()
+                val map = mutableMapOf<Int, Int>()
+                repeat(n) {
+                    val i = nextInt()
+                    map[i] = map.getOrDefault(i, 0) + 1
+                }
 
+                var sum = 0
+                for (p in map) {
+                    sum += p.value / 2
+                }
+                appendLine(sum)
             }
         }
     )
