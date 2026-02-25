@@ -1,2 +1,6 @@
 .cph/
 .vscode/
+
+rust/.vscode/
+rust/target/
+rust/Cargo.lock
