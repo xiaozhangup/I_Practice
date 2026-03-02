@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="389442a9-a476-4cbd-ba40-3badf96c87e2" name="更改" comment="2026-02-13&#10;2026牛客寒假算法基础集训营6">
-      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/32c2f59fbd.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/34fb5fbd0d.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/3dd5ab3cdf.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/b8eac2d99a.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/ba8737c46b.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/e2dc30878e.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/3315d28065.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/4be60c2223.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/62b94bd3a0.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/77776ff3e5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/a0c7f96f62.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/afcfc4d7c1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/ba597318a2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/codeforces.com/e4113f2d3c.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.autocp" beforeDir="false" afterPath="$PROJECT_DIR$/.autocp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temple.kt" beforeDir="false" afterPath="$PROJECT_DIR$/temple.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +65,23 @@
     "AutoCp Solution.23ab01f997.executor": "Run",
     "AutoCp Solution.30d5d99d1c.executor": "Run",
     "AutoCp Solution.32c2f59fbd.executor": "Run",
+    "AutoCp Solution.3315d28065.executor": "Run",
     "AutoCp Solution.34fb5fbd0d.executor": "Run",
+    "AutoCp Solution.4be60c2223.executor": "Run",
     "AutoCp Solution.60d9ce29dc.executor": "Run",
     "AutoCp Solution.72931fa2a8.executor": "Run",
+    "AutoCp Solution.77776ff3e5.executor": "Run",
     "AutoCp Solution.7bfe73e6e6.executor": "Run",
     "AutoCp Solution.821f13e79d.executor": "Run",
     "AutoCp Solution.84c9cbeb6f.executor": "Run",
+    "AutoCp Solution.a0c7f96f62.executor": "Run",
+    "AutoCp Solution.afcfc4d7c1.executor": "Run",
     "AutoCp Solution.b8eac2d99a.executor": "Run",
+    "AutoCp Solution.ba597318a2.executor": "Run",
     "AutoCp Solution.ba8737c46b.executor": "Run",
     "AutoCp Solution.d60868a76b.executor": "Run",
     "AutoCp Solution.e2dc30878e.executor": "Run",
+    "AutoCp Solution.e4113f2d3c.executor": "Run",
     "AutoCp Solution.ea82a47b69.executor": "Run",
     "AutoCp Solution.ef392e3c31.executor": "Run",
     "AutoCp Solution.f9747ad23e.executor": "Run",
@@ -84,6 +92,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SHELLCHECK.PATH": "/home/xiaozhangup/.local/share/JetBrains/IntelliJIdea2026.1/Shell Script/shellcheck",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/xiaozhangup/文档/Mem",
@@ -104,64 +113,64 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="AutoCp Solution.b8eac2d99a">
-    <configuration name="32c2f59fbd" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+  <component name="RunManager" selected="AutoCp Solution.e4113f2d3c">
+    <configuration name="3315d28065" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/32c2f59fbd.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/3315d28065.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="34fb5fbd0d" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="a0c7f96f62" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/34fb5fbd0d.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/a0c7f96f62.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="b8eac2d99a" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="afcfc4d7c1" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/b8eac2d99a.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/afcfc4d7c1.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="ba8737c46b" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="ba597318a2" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/ba8737c46b.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/ba597318a2.kt" />
       <method v="2" />
     </configuration>
-    <configuration name="e2dc30878e" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="e4113f2d3c" type="AutoCp" factoryName="AutoCp" singleton="false" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="true" />
       <option name="defaultTargetName" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/e2dc30878e.kt" />
+      <option name="solutionFilePath" value="$PROJECT_DIR$/codes/codeforces.com/e4113f2d3c.kt" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="AutoCp Solution.b8eac2d99a" />
-        <item itemvalue="AutoCp Solution.e2dc30878e" />
-        <item itemvalue="AutoCp Solution.32c2f59fbd" />
-        <item itemvalue="AutoCp Solution.ba8737c46b" />
-        <item itemvalue="AutoCp Solution.34fb5fbd0d" />
+        <item itemvalue="AutoCp Solution.e4113f2d3c" />
+        <item itemvalue="AutoCp Solution.afcfc4d7c1" />
+        <item itemvalue="AutoCp Solution.3315d28065" />
+        <item itemvalue="AutoCp Solution.ba597318a2" />
+        <item itemvalue="AutoCp Solution.a0c7f96f62" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +190,7 @@
       <workItem from="1771740154339" duration="198000" />
       <workItem from="1771760909238" duration="2523000" />
       <workItem from="1771821431773" duration="11361000" />
+      <workItem from="1772462171040" duration="9527000" />
     </task>
     <task id="LOCAL-00001" summary="Import Kotlin">
       <option name="closed" value="true" />
